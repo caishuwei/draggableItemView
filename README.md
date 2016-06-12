@@ -6,6 +6,9 @@
 
 
 ```
+//设置拖拽Item是否可以拖出父控件
+gv_animation.setDragOutOfParent(true);
+
 //必须使用此方法设置拖拽处理对象
 //一下是通用实现
 gv_animation.setDragChangeHandler(new IDragChangeHandler() {
